@@ -1,0 +1,38 @@
+#centimg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity : 0.5;
+
+
+}
+/*تفاصيل الكتابة الي بنص الصورة   */
+
+.cent {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 30px; 
+font-family: cursive ;
+color: hwb(352 4% 36%);
+}
+.card-container {
+    margin-top: 3% ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%; /* تباعد بين البطاقات */
+    justify-content: space-between; /* توزيع المساحة بين البطاقات */
+
+  }
+  .card {  flex: 1;
+    height: 100px; /* ارتفاع الكارد */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 0 10px; /* هام: تحديد هامش بين الكاردات */
+  
+  }
+ 
